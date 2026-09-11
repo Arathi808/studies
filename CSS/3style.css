@@ -1,0 +1,25 @@
+h1 {
+    /* color: red; Named colors */
+
+    /* color: #rrggbb; Hexadecimal colors */
+
+    /* color: #0000ff; */
+
+    /* color: rgb(120, 223, 40); RGB colors */
+
+    /* color: rgba(120, 223, 40, 0.5); RGBA colors */
+
+    /* color: #ff9922; Hexadecimal colors */
+
+    /* color: #ff9; Hexadecimal colors in 3 values */
+
+    /* color: hsla(187, 76%, 42%, 0.843); HSLA colors */
+ } 
+
+ h1{
+    color: hsla(187, 76%, 42%, 0.843); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-weight: lighter;
+    font-size: 50px;
+ }

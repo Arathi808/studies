@@ -1,0 +1,36 @@
+  /* element selector */
+        h1 {
+            color: blue;
+        }
+
+        /* class selector */
+        .heading {
+            color: red;
+        }
+
+        /* id selector */
+        #head {
+            color: brown;
+        }
+
+        /* universal selector */
+        * {
+            background-color: black;
+        }
+        /*combinators*/
+        /* descendant combinator */
+        ul li{
+            color:red;
+        }
+        /* child combinator */
+        ul>li{
+            color:green
+        }
+        /*next sibling combinator*/
+        #head+p{
+            color:red;
+        }
+        /*general sibling combinator*/
+        #head~p{
+            color: aqua;
+        }
