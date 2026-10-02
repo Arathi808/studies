@@ -1,0 +1,26 @@
+.box{
+    width:400px;
+    height:250px;
+}
+
+/* .linear-gradient{
+background-image: linear-gradient(direction, color-stop1,color-stop2);
+} */
+
+.top-bottom{
+    background-image: linear-gradient( lavender,rgb(203, 91, 109));
+}
+.bottom-top{
+    background-image: linear-gradient(to top, lavender, rgb(206, 115, 130));
+}
+
+.left-right{
+    background-image: linear-gradient(to right, lavender,rgb(205, 135, 146));
+}
+
+.bottom-right{
+     background-image: linear-gradient(to bottom right, lavender,rgb(205, 135, 146));
+}
+.repeating{
+     background-image: repeating-linear-gradient(to bottom right, lavender,pink 10%, yellow 20%);
+}

@@ -1,0 +1,26 @@
+.body{
+    margin:0;
+}
+.main{
+    display: grid;
+    color:white;
+    gap:5px;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 100px 100px;
+}
+.items{
+    background-color: rgb(27, 52,27);
+
+}
+ @media screen and (max-width:768px){
+    .main{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 100px 100px;
+    }
+ }
+ @media screen and (max-width:426px){
+    .main{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6,100px);
+    }
+ }

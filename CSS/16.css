@@ -1,0 +1,115 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    width: 500px;
+    height: 200px;
+    margin: 20px auto;
+}
+
+
+/* 1. Default */
+
+.default {
+    background-image: radial-gradient(
+        red,
+        yellow,
+        green
+    );
+}
+
+
+/* 2. Circle Shape */
+
+.circle {
+    background-image: radial-gradient(
+        circle,
+        red,
+        yellow,
+        green
+    );
+}
+
+
+/* 3. Closest Side */
+
+.closest-side {
+    background-image: radial-gradient(
+        closest-side,
+        red,
+        yellow,
+        green
+    );
+}
+
+
+/* 4. Farthest Side */
+
+.farthest-side {
+    background-image: radial-gradient(
+        farthest-side,
+        red,
+        yellow,
+        green
+    );
+}
+
+
+/* 5. Closest Corner */
+
+.closest-corner {
+    background-image: radial-gradient(
+        closest-corner,
+        red,
+        yellow,
+        green
+    );
+}
+
+
+/* 6. Farthest Corner */
+
+.farthest-corner {
+    background-image: radial-gradient(
+        farthest-corner,
+        red,
+        yellow,
+        green
+    );
+}
+
+
+/* 7. Position */
+
+.position {
+    background-image: radial-gradient(
+        circle at 70% 60%,
+        red,
+        yellow,
+        green
+    );
+}
+
+
+/* 8. Color Stops */
+
+.color-stops {
+    background-image: radial-gradient(
+        red 10%,
+        yellow 30%,
+        green 70%
+    );
+}
+
+
+/* 9. Repeating Radial Gradient */
+
+.repeating {
+    background-image: repeating-radial-gradient(
+        red,
+        yellow 10%,
+        green 15%
+    );
+}

@@ -1,0 +1,35 @@
+.main{
+    display: grid;
+    gap: 5px;
+    grid-template-areas: "logo logo search search search services services"
+                        "sidebar mainarea mainarea mainarea mainarea mainarea sidebar2"
+                        "sidebar mainarea mainarea mainarea mainarea mainarea sidebar2"
+                        "sidebar mainarea mainarea mainarea mainarea mainarea sidebar2";
+    grid-template-rows: 100px 200px 200px 200px;
+}
+
+.items{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+     
+}
+
+.item1{
+    grid-area: logo;
+}
+.item2{
+    grid-area: search;
+}
+.item3{
+    grid-area: services;
+}
+.item4{
+grid-area: sidebar;
+}
+.item5{
+grid-area:mainarea;
+}
+.item6{
+    grid-area:sidebar2
+}

@@ -1,0 +1,14 @@
+.main{
+    height:100px;
+    background-color: green;
+}
+@media screen and (min-width:768px){
+    .main{
+        background-color: red;
+    }
+}
+@media screen and (max-width:440px){
+    .main{
+        background-color: pink;
+    }
+}

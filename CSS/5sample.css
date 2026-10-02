@@ -1,0 +1,9 @@
+.main{
+    height: 150vh;
+    width:500px;
+    background-color: blue;
+    background-image: url(th.jpg);
+    background-size: 100px;
+    background-repeat:repeat;
+    background-attachment: fixed;
+}

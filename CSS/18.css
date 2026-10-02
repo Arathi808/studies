@@ -1,0 +1,32 @@
+.main{
+    height:500px;
+    /* width:500px; */
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:space-evenly; /* flex-start */
+    align-items:flex-end;
+    align-content: space-between;
+}
+
+.sub{
+    color:black;
+    background-color:cadetblue;
+    height:100px;
+    width:100px;
+}
+.sub1{
+    flex:1;
+}
+.sub2{
+    flex: 2;
+    background-color: blue;
+}
+.sub3{
+    flex:3;
+}
+.sub4{
+    flex:4;
+    background-color: blue;
+}

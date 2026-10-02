@@ -1,0 +1,40 @@
+.main{
+    height: 400vh;
+    width:500px;
+    background-color: beige;
+    position: relative;
+}
+
+.sub{
+    height: 100px;
+    width: 100px;
+    background-color: darkred;
+    /* position:static; */
+    /* position:relative;
+    top:10px;
+    left:30px; */
+    /* position: absolute;
+    top:0px;
+    right: 0px; */
+    position: sticky;
+    top: 10px;
+}
+.sub1{
+    height: 50px;
+    width:50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    border-radius 50%;
+    background-color:lightblue;
+    position:fixed;
+    bottom:10px;
+    right: 10px;
+}
+
+.main1{
+    height:200vh;
+    width: 400px;
+    background-color: red;
+}

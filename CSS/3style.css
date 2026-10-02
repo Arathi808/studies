@@ -13,13 +13,56 @@ h1 {
 
     /* color: #ff9; Hexadecimal colors in 3 values */
 
-    /* color: hsla(187, 76%, 42%, 0.843); HSLA colors */
+    color: hsla(187, 76%, 42%, 0.843); 
  } 
 
- h1{
+ /* h1{
     color: hsla(187, 76%, 42%, 0.843); 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: oblique;
     font-weight: lighter;
     font-size: 50px;
+ } */
+
+ h1{
+   font:italic small-caps bold 12px/30px Arial/self;
+   text-align: center;
+   line-height: 30px;
+   word-spacing: 10px;
+   letter-spacing: 5px;
+   text-decoration-line: overline underline;
+   text-decoration-style: wavy ;
+   text-decoration-color: aquamarine;
+   text-decoration-thickness:5px ;
+   text-transform: capitalize;
+   text-shadow: 2px 2px 5px yellow;
+   padding-top: 40px;
+   padding-bottom: 30px;
+   padding-left: 30px;
+   padding-right: 30px;
+   /* padding:10px 30px 20px 20px */
+   /* padding:10px 30px 10px */
+   /* padding:10px 30px */
+   /* padding: 10px; */
+   border-style: groove;
+   border-color:blueviolet;
+   border-width: 5px;  
+   /* border:2px solid red;  */
+   border-left: 10px solid blueviolet;
+
+   /* margin-top: 40px; */
+   margin:10px;
+  
+   box-sizing: content-box;
+   a{
+      display:inline-block;
+      height:100px;
+      width:100px;
+ /* dispaly:inline; */
+ /* display:block */
+/* display inline-block;} */
  }
+p{
+text-indent: 10px;
+
+}
